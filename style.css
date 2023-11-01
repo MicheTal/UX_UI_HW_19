@@ -1,0 +1,192 @@
+/* styles.css */
+
+.center-line {
+  text-align: center; /* Center the line horizontally */
+  
+}
+.center-line hr {   
+  border: 0;
+  height: 5px;
+  background-color: black;
+  margin-right: 350px;
+  margin-top: 700px;
+}
+.center-line2 {
+  text-align: center;
+  
+}
+.center-line2 hr {
+  border: 0;
+  height: 5px;
+  background-color: black;
+  margin-right: 350px;
+  margin-top: 410px;
+}
+
+
+.line {
+  width: 50%; /* Set the width of the line */
+}
+
+.header {
+  font-size: 2vw; /* Use relative units for font size */
+  padding: 2vw;
+  text-align: right;
+  font-family: Georgia;
+}
+.link {
+  color: #FF7A00; /* Fix the case of the property */
+  text-decoration: none;
+  margin-left: 1.5vw;
+}
+
+  .Name {
+    position: absolute; /* Set the position to absolute */
+    top: 35%; /* Set the distance from the top to 50% */
+    left: 45%; /* Set the distance from the left to 50% */
+    transform: translate(-100%, -10%); /* Use transform to center the element */
+    font-size: 35px;
+    font-family: 'Playfair Display', serif; /* Set the font family for the heading */
+    
+  }
+
+  .UI { 
+    position: absolute; /* Set the position to absolute */
+    top: 45%; /* Set the distance from the top to 50% */
+    left: 42%; /* Set the distance from the left to 50% */
+    transform: translate(-65%, -15%); /* Use transform to center the element */
+    font-size: 24px;
+  }
+  
+  
+  .About { 
+    position: absolute; /* Set the position to absolute */
+    top: 100%; /* Set the distance from the top to 50% */
+    left: 30%; /* Set the distance from the left to 50% */
+    transform: translate(-100%, -15%); /* Use transform to center the element */
+    font-size: 24px;
+    color:#FF7A00;
+    font-family: 'Playfair Display', serif; /* Set the font family for the heading */
+  }
+  .AbM {
+    position: absolute;
+    top: 112%; /* Set the distance from the top to 50% */
+    left: 80%; /* Set the distance from the left to 50% */
+    transform: translate(-92%, -15%); /* Use transform to center the element */
+    font-size: 24px;
+    font-family: Georgia; /* Set the font for the paragraph */
+    width: 60%;
+  }
+    
+    .img { 
+    margin-right: 220px;
+    margin-top: 65px;
+    }
+    .img img {
+        width: 28%;
+    }
+
+
+ /* UX_UI_HW_18 - start here */
+   
+ .center-line3 {
+  text-align: center;
+}
+.center-line3 hr {
+  border: 0;
+  height: 5px;
+  background-color: black;
+  margin-right: 350px;
+  margin-top: 650px;
+}
+  
+.table {
+        position: absolute;
+        top: 135%;/* Set the distance from the top to 50% */
+        left: 50%; /* Set the distance from the left to 50% */
+        transform: translate(-80%, -20%); /* Use transform to center the element */
+        margin-top: 300px;
+
+    }
+    .My-Work { 
+        position: absolute; /* Set the position to absolute */
+        top: 230%; /* Set the distance from the top to 50% */
+        left: 50%; /* Set the distance from the left to 50% */
+        transform: translate(-50%, -15%); /* Use transform to center the element */
+        font-size: 24px;
+        color:#FF7A00;
+        font-family: 'Playfair Display', serif; /* Set the font family for the heading */
+
+    }
+    
+    .Wello { 
+        position: absolute; /* Set the position to absolute */
+        top: 277%; /* Set the distance from the top to 105% */
+        left: 18%; /* Set the distance from the left to 50% */
+        transform: translate(-100%, -15%); /* Use transform to center the element */
+        font-size: 24px;
+        font-family: 'Nunito', sans-serif;; /* Set the font family for the heading */
+        margin-bottom: 70px;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .larkin1 { 
+        position: absolute; /* Set the position to absolute */
+        top: 277%; /* Set the distance from the top to 305% */
+        left: 79%; /* Set the distance from the left to 86% */
+        transform: translate(-100%, -15%); /* Use transform to center the element */
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif; /* Set the font family for the heading */
+        text-align: center;
+        margin-bottom: 70px;
+        width: 50%;
+        color: black;
+        text-decoration: underline;
+    }
+
+
+   table {
+      border-collapse: collapse;
+      width: 150%;
+      }
+
+   .th, td {
+      padding: 30px; 
+      padding-left: 50px;
+      text-align: center; 
+      }
+
+   .th {
+      color:#FF7A00;
+      font-family: 'Playfair Display', serif; /* Set the font family for the heading */
+      font-size: 24px;
+      }
+
+    .td {
+      font-family: Georgia; /* Set the font for the paragraph */
+      font-size: 20px;
+      }
+
+  
+      .imagery {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 160px;
+      }
+      .imagery img {
+        max-height: 210px;
+        margin-right: 280px; /* Adjust the margin for the 2 case study */
+      }
+    .email {
+      position: absolute; /* Set the position to absolute */
+      top: 253%; /* Set the distance from the top to 50% */
+      left: 79%; /* Set the distance from the left to 50% */
+      transform: translate(-50%, -15%); /* Use transform to center the element */
+      font-size: 16px;
+      color:black;
+      font-family: Georgia;
+      width: 60%;
+    }
+   
